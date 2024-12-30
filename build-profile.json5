@@ -1,0 +1,50 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:/Users/Mr Zeng/.ohos/config/openharmony/default_MyApp1_kj_GXbQn5xzWJZDLhMcpwJPrBh_LKn4TRqIgo23IWQs=.cer",
+          "storePassword": "0000001A432173CA22F06C9DC13906979C0B087B466FF6EF4143A4130E44E7675B8923B60BC60006234B",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A90A30930F91447F727A4B07AD7BF6E64F2804D19FB2C7F7A3C429AA7D22EDEE455FC95E633B2",
+          "profile": "C:/Users/Mr Zeng/.ohos/config/openharmony/default_MyApp1_kj_GXbQn5xzWJZDLhMcpwJPrBh_LKn4TRqIgo23IWQs=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:/Users/Mr Zeng/.ohos/config/openharmony/default_MyApp1_kj_GXbQn5xzWJZDLhMcpwJPrBh_LKn4TRqIgo23IWQs=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": 11,
+        "compatibleSdkVersion": 11,
+        "targetSdkVersion": 11,
+        "runtimeOS": "OpenHarmony",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

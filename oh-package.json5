@@ -1,0 +1,15 @@
+{
+  "name": "myapp1",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@ohos/hypium": "1.0.13",
+    "@ohos/hamock": "1.0.0",
+    "js-base64": "^3.7.7"
+  }
+}
